@@ -1,0 +1,92 @@
+
+.holdings-container {
+    color: #fff;
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.holdings-container h2 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.holdings-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #161b22;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.holdings-table th,
+.holdings-table td {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #2c2f36;
+  vertical-align: top;
+}
+
+.holdings-table th {
+  background-color: #1f2631;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #a9a9a9;
+}
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto; /* Enables horizontal scroll */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+.asset {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.asset img {
+  width: 28px;
+  height: 28px;
+}
+
+.sub {
+  font-size: 0.75rem;
+  color: #888;
+}
+
+.green {
+  color: #1effa0;
+}
+
+.red {
+  color: #ff5e5e;
+}
+
+.active-row {
+  background-color: #1a2b4c;
+  height: 100px;
+}
+
+.table-row{
+    height: 100px;
+}
+
+.view-all {
+  margin-top: 10px;
+  text-align: right;
+  color: #4a90e2;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.view-all {
+  text-align: left;
+  color: #1e90ff;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
