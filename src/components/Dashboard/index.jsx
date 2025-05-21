@@ -16,7 +16,13 @@ const Dashboard = () => {
             <div className='dashboard-content'>
                 <div className='main-heading-container'>
                     <h1 className='main-heading'>Tax Harvesting</h1>
-                    <p className='main-heading-para'>How it works?</p>
+                    <div className="tooltip-container">
+                        <p className="main-heading-para">How it works?</p>
+                        <div className="hover-box">
+                            Lorem ipsum dolor sit amet consectetur. Euismod id posuere nibh semper mattis scelerisque tellus.
+                            Vel mattis diam duis morbi tellus dui consectetur. <a href="#">Know More</a>
+                        </div>
+                    </div>
                 </div>
                 <Disclaimer />
                 <CapitalGainsCard selectedHoldings={selectedHoldings} />

@@ -1,35 +1,70 @@
-.dashboard-bg{
+.dashboard-bg {
     background-color: #252625;
     min-height: 100vh;
     font-family: Roboto;
 }
 
-.dashboard-content{
+.dashboard-content {
     padding-left: 40px;
     padding-right: 40px;
 }
 
-.header{
+.header {
     background-color: #171A26;
 }
 
-.logo{
+.logo {
     padding-left: 50px;
 }
 
-.main-heading-container{
+.main-heading-container {
     display: flex;
     align-items: center;
     gap: 2;
 }
 
-.main-heading{
+.main-heading {
     color: white;
     font-size: 20px;
 }
 
-.main-heading-para{
-    color: lightblue;
+.main-heading-para {
     margin-left: 10px;
     text-decoration: underline;
+    color: #4285f4;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+}
+
+.hover-box {
+    position: absolute;
+    top: 100%;
+    /* pushes box below the text */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    background: white;
+    color: black;
+    padding: 12px 16px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    line-height: 1.5;
+    display: none;
+    z-index: 100;
+}
+
+.tooltip-container:hover .hover-box {
+    display: block;
+}
+
+.hover-box a {
+    color: #007bff;
+    text-decoration: underline;
+    font-weight: 500;
 }
